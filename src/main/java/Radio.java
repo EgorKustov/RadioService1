@@ -2,7 +2,7 @@ public class Radio {
 
     private int currentStation;
     private int currentVolume;
-    private int maxStation;
+    private final int maxStation = 9;
 
     public int getCurrentStation(){
 
@@ -58,10 +58,4 @@ public class Radio {
             currentStation = maxStation;
         }
     }
-
-    public Radio() {
-        this.maxStation = 9;
-
-    }
-
 }
