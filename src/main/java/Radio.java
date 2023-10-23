@@ -1,6 +1,6 @@
 public class Radio {
 
-    private int maxStation;
+    private final int maxStation;
     private int currentStation;
     private int currentVolume;
 
